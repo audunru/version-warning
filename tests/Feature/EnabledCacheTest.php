@@ -64,6 +64,6 @@ class EnabledCacheTest extends TestCase
             ->shouldHaveReceived('rememberForever')
             ->once();
 
-        $this->assertEquals('3.2.1', Cache::get(config('version-warning.cache.key')));
+        $this->assertEquals('3.2.1', Cache::get('app-version'));
     }
 }

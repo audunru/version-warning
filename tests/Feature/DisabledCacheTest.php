@@ -44,6 +44,6 @@ class DisabledCacheTest extends TestCase
             ->assertHeader('X-App-Version', '3.2.1')
             ->assertHeaderMissing('X-Version-Warning');
 
-        $this->assertEquals('', Cache::get(config('version-warning.cache.key')));
+        $this->assertEquals('', Cache::get('app-version'));
     }
 }
