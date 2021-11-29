@@ -24,6 +24,7 @@ $config
         'ordered_imports'                   => true,
         'phpdoc_order'                      => true,
         'phpdoc_align'                      => false,
+        'phpdoc_separation'                 => false,
     ])
     ->setFinder($finder);
 
