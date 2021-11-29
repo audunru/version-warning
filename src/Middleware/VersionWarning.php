@@ -32,6 +32,10 @@ class VersionWarning
             $appVersion = $this->versionService->getAppVersion();
             $response->header(config('version-warning.headers.app-version'), $appVersion);
         } catch (VersionWarningException $e) {
+            if (config('version-warning.errors.throw')) {
+                throw $e;
+            }
+
             Log::error('Could not determine app version', ['exception' => $e]);
         }
 

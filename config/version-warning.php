@@ -28,4 +28,13 @@ return [
         */
         'key'     => 'app-version',
     ],
+    'errors' => [
+        /*
+        * Log or throw errors.
+        * If set to false, errors will be logged (not thrown).
+        * If set to true, errors will be thrown (not logged).
+        * If you choose to throw errors, you should handle them in Laravel's Handler.php.
+        */
+        'throw' => false,
+    ],
 ];
