@@ -32,17 +32,41 @@ Add the `VersionWarning` middleware to your API routes:
 
 ## Step 3: Notify user when client is outdated
 
-### Alternative A: Compare versions server side
+### Alternative A: Compare X-App-Version header client side
 
-On the client side, whenever you make a fetch request to the server, add a `X-App-Version` header with a value of the client's current version. E.g.: `X-App-Version: 1.18.1`.
+When you make a fetch request to the server, add a `X-App-Version` header with a value of the client's current version. E.g.: `X-App-Version: 1.18.1`.
 
 The `VersionWarning` middleware will compare the client version to the server version, and add a header called `X-Version-Warning` to the response if the versions do not match.
 
 On the client side, you should check for the presence of the `X-Version-Warning` header. If it is present, the user should be notified that a reload is necessary so that the latest client assets (JavaScript and CSS) can be loaded.
 
-### Alternative B: Compare versions client side
+### Alternative B: Compare X-App-Version header client side
 
-The `VersionWarning` header adds a header called `X-App-Version` to the response. On the client side, you can compare this version to the client version and notify the user in case of a mismatch.
+The `VersionWarning` middleware adds a header called `X-App-Version` to the response. On the client side, you can compare this version to the client version and notify the user in case of a mismatch.
+
+## Which version is the client running?
+
+### Set client version during build
+
+If you're using Laravel Mix, you can include the current version during build time.
+
+Set the MIX_VERSION environment variable in your build script (you should install the [cross-var](https://www.npmjs.com/package/cross-var) and [cross-env](https://www.npmjs.com/package/cross-env) packages so that this works on both Mac/Windows):
+
+```json
+"production": "cross-var cross-env MIX_VERSION=$npm_package_version mix --production",
+```
+
+You can then use `process.env.MIX_VERSION` in your frontend code.
+
+### Get client version from HTML meta tag
+
+Add the following to your layout blade template:
+
+```html
+<meta name="app-version" content="{{ app_version() }}" />
+```
+
+In your frontend code, read the value of this meta tag.
 
 # Configuration
 
