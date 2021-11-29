@@ -23,6 +23,7 @@ $config
         'not_operator_with_successor_space' => true,
         'ordered_imports'                   => true,
         'phpdoc_order'                      => true,
+        'phpdoc_align'                      => false,
     ])
     ->setFinder($finder);
 
