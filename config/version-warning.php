@@ -22,7 +22,7 @@ return [
         /*
         * Enable or disable cache.
         */
-        'enabled' => true,
+        'enabled' => env('VERSION_WARNING_CACHE_ENABLED', true),
         /*
         * Cache key used to store current app version.
         */
