@@ -2,7 +2,7 @@
 
 [![Build Status](https://app.travis-ci.com/audunru/version-warning.svg?branch=master)](https://app.travis-ci.com/audunru/version-warning)
 [![Coverage Status](https://coveralls.io/repos/github/audunru/version-warning/badge.svg?branch=master)](https://coveralls.io/github/audunru/version-warning?branch=master)
-[![StyleCI](https://github.styleci.io/repos/432809067/shield?branch=master)](https://github.styleci.io/repos/407671897)
+[![StyleCI](https://github.styleci.io/repos/432809067/shield?branch=master)](https://github.styleci.io/repos/432809067)
 
 Laravel middleware to help you notify users who are using an outdated version of the SPA client.
 
