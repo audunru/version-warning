@@ -27,7 +27,7 @@ class VersionWarning
 
         try {
             $appVersion = $this->versionService->getAppVersion();
-            $response->header(config('version-warning.headers.app-version'), $appVersion);
+            $response->headers->set(config('version-warning.headers.app-version'), $appVersion);
         } catch (VersionWarningException $e) {
             if (config('version-warning.errors.throw')) {
                 throw $e;
@@ -40,7 +40,7 @@ class VersionWarning
         if (! empty($clientVersion) && ! empty($appVersion)) {
             $versionWarning = version_compare($clientVersion, $appVersion, '!=');
             if ($versionWarning) {
-                $response->header(config('version-warning.headers.version-warning'), $versionWarning);
+                $response->headers->set(config('version-warning.headers.version-warning'), $versionWarning);
             }
         }
 
