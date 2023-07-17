@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Validate Pull Request Title
-        uses: amannn/action-semantic-pull-request@v4
+        uses: amannn/action-semantic-pull-request@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Validate commit messages
-        uses: wagoid/commitlint-github-action@v4
+        uses: wagoid/commitlint-github-action@v5
 
       - name: Setup PHP with PECL extension
         uses: shivammathur/setup-php@v2
