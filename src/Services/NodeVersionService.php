@@ -8,7 +8,6 @@ use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
-use JsonException;
 
 class NodeVersionService extends BaseVersionService implements VersionServiceContract
 {
@@ -24,7 +23,7 @@ class NodeVersionService extends BaseVersionService implements VersionServiceCon
             return Arr::get($packageJson, 'version', '');
         } catch (FileNotFoundException $e) {
             throw new VersionWarningException(sprintf('Could not open file %s', $this->getPackageJsonPath()), previous: $e);
-        } catch (JsonException $e) {
+        } catch (\JsonException $e) {
             throw new VersionWarningException(sprintf('Could not decode JSON in %s', $this->getPackageJsonPath()), previous: $e);
         }
     }

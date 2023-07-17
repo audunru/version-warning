@@ -5,7 +5,6 @@ namespace audunru\VersionWarning\Tests\Feature;
 use audunru\VersionWarning\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
-use Mockery;
 
 class InvalidPackageJsonTest extends TestCase
 {
@@ -18,7 +17,7 @@ class InvalidPackageJsonTest extends TestCase
 
         Log::shouldReceive('error')
             ->once()
-            ->with('Could not determine app version', Mockery::hasKey('exception'));
+            ->with('Could not determine app version', \Mockery::hasKey('exception'));
 
         $response = $this->get('/test', ['X-App-Version' => '1.2.3']);
 

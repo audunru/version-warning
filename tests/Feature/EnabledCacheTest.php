@@ -5,7 +5,6 @@ namespace audunru\VersionWarning\Tests\Feature;
 use audunru\VersionWarning\Tests\TestCase;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
-use Mockery;
 
 class EnabledCacheTest extends TestCase
 {
@@ -52,7 +51,7 @@ class EnabledCacheTest extends TestCase
     public function testCacheIsEnabledByDefault()
     {
         $cacheRepository = Cache::driver();
-        $cacheRepositorySpy = Mockery::spy($cacheRepository);
+        $cacheRepositorySpy = \Mockery::spy($cacheRepository);
         Cache::swap($cacheRepositorySpy);
 
         $response = $this->get('/test');

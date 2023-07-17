@@ -5,7 +5,6 @@ namespace audunru\VersionWarning\Tests\Feature;
 use audunru\VersionWarning\Tests\TestCase;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
-use Mockery;
 
 class DisabledCacheTest extends TestCase
 {
@@ -30,7 +29,7 @@ class DisabledCacheTest extends TestCase
     public function testCacheCanBeDisabled()
     {
         $cacheRepository = Cache::driver();
-        $cacheRepositorySpy = Mockery::spy($cacheRepository);
+        $cacheRepositorySpy = \Mockery::spy($cacheRepository);
         Cache::swap($cacheRepositorySpy);
 
         $cacheRepositorySpy
