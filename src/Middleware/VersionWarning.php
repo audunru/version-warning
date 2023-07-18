@@ -4,6 +4,7 @@ namespace audunru\VersionWarning\Middleware;
 
 use audunru\VersionWarning\Contracts\VersionServiceContract;
 use audunru\VersionWarning\Exceptions\VersionWarningException;
+use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\Response;
@@ -19,7 +20,7 @@ class VersionWarning
      *
      * @return mixed
      */
-    public function handle(Request $request, \Closure $next): Response
+    public function handle(Request $request, Closure $next): Response
     {
         $response = $next($request);
 

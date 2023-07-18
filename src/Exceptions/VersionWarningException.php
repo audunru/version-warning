@@ -2,6 +2,8 @@
 
 namespace audunru\VersionWarning\Exceptions;
 
-class VersionWarningException extends \Exception
+use Exception;
+
+class VersionWarningException extends Exception
 {
 }
