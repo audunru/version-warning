@@ -25,6 +25,7 @@ $config
         'phpdoc_order'                      => true,
         'phpdoc_align'                      => false,
         'phpdoc_separation'                 => false,
+        'increment_style'                   => ['style' => 'post'],
         'global_namespace_import'           => [
             'import_classes'   => true,
             'import_constants' => null,
