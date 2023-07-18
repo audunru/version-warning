@@ -8,9 +8,6 @@ use Illuminate\Support\Facades\Cache;
 
 class CachingVersionService implements VersionServiceContract
 {
-    /**
-     * @SuppressWarnings("unused")
-     */
     public function __construct(private VersionServiceContract $versionService)
     {
     }

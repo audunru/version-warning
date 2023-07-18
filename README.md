@@ -1,6 +1,6 @@
 # Warn SPA users when client is outdated compared to server
 
-[![Build Status](https://app.travis-ci.com/audunru/version-warning.svg?branch=master)](https://app.travis-ci.com/audunru/version-warning)
+[![Build Status](https://github.com/audunru/version-warning/actions/workflows/validate.yml/badge.svg)](https://github.com/audunru/version-warning/actions/workflows/validate.yml)
 [![Coverage Status](https://coveralls.io/repos/github/audunru/version-warning/badge.svg?branch=master)](https://coveralls.io/github/audunru/version-warning?branch=master)
 [![StyleCI](https://github.styleci.io/repos/432809067/shield?branch=master)](https://github.styleci.io/repos/432809067)
 

@@ -5,13 +5,12 @@ namespace audunru\VersionWarning\Middleware;
 use audunru\VersionWarning\Contracts\VersionServiceContract;
 use audunru\VersionWarning\Exceptions\VersionWarningException;
 use Closure;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Symfony\Component\HttpFoundation\Response;
 
 class VersionWarning
 {
-    /**
-     * @SuppressWarnings("unused")
-     */
     public function __construct(private VersionServiceContract $versionService)
     {
     }
@@ -19,10 +18,9 @@ class VersionWarning
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
      * @return mixed
      */
-    public function handle($request, Closure $next)
+    public function handle(Request $request, Closure $next): Response
     {
         $response = $next($request);
 
@@ -30,7 +28,7 @@ class VersionWarning
 
         try {
             $appVersion = $this->versionService->getAppVersion();
-            $response->header(config('version-warning.headers.app-version'), $appVersion);
+            $response->headers->set(config('version-warning.headers.app-version'), $appVersion);
         } catch (VersionWarningException $e) {
             if (config('version-warning.errors.throw')) {
                 throw $e;
@@ -43,7 +41,7 @@ class VersionWarning
         if (! empty($clientVersion) && ! empty($appVersion)) {
             $versionWarning = version_compare($clientVersion, $appVersion, '!=');
             if ($versionWarning) {
-                $response->header(config('version-warning.headers.version-warning'), $versionWarning);
+                $response->headers->set(config('version-warning.headers.version-warning'), $versionWarning);
             }
         }
 
