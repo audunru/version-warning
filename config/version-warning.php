@@ -5,7 +5,7 @@ return [
         /*
          * Class responsible for comparing client and app version.
          */
-        'version' => \audunru\VersionWarning\Services\NodeVersionService::class,
+        'version' => audunru\VersionWarning\Services\NodeVersionService::class,
     ],
 
     'headers' => [
