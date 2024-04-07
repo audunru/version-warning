@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.0](https://github.com/audunru/version-warning/compare/v1.0.1...v2.0.0) (2024-04-07)
+
+
+### Features
+
+* laravel 11 support ([#10](https://github.com/audunru/version-warning/issues/10)) ([54b05ef](https://github.com/audunru/version-warning/commit/54b05ef06930dc180444b25da815e74d0841b46d))
+
+
+### Miscellaneous Chores
+
+* release 2.0.0 ([4f65a35](https://github.com/audunru/version-warning/commit/4f65a35a17565571073e9d053e7987d4b2f722f0))
+
 ## [1.0.1](https://github.com/audunru/version-warning/compare/v1.0.0...v1.0.1) (2024-04-07)
 
 
