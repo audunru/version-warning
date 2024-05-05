@@ -20,6 +20,7 @@ abstract class TestCase extends BaseTestCase
     {
         $app['config']->set('app.debug', 'true' === env('APP_DEBUG'));
         $app['config']->set('app.key', substr(str_shuffle(str_repeat('0123456789abcdefghijklmnopqrstuvwxyz', 5)), 0, 32));
+        $app['config']->set('version-warning.cache.clear_on_events', ['some-event']);
         $app->register(VersionWarningServiceProvider::class);
     }
 

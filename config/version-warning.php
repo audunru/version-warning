@@ -27,6 +27,10 @@ return [
         * Cache key used to store current app version.
         */
         'key'     => 'app-version',
+        /*
+        * Automatically clear the cache on these events.
+        */
+        'clear_on_events'     => [],
     ],
     'errors' => [
         /*
