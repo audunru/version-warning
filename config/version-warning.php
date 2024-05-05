@@ -31,6 +31,10 @@ return [
         * Automatically clear the cache on these events.
         */
         'clear_on_events'     => [],
+        /*
+        * Automatically clear the cache after these console commands have run.
+        */
+        'clear_after_commands'     => [],
     ],
     'errors' => [
         /*
