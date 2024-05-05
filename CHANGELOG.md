@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/audunru/version-warning/compare/v2.0.0...v2.1.0) (2024-05-05)
+
+
+### Features
+
+* clear version cache automatically after console commands ([883133b](https://github.com/audunru/version-warning/commit/883133b3066f117e362d407d4583ae1e9a511170))
+* clear version cache automatically after events ([2290a27](https://github.com/audunru/version-warning/commit/2290a27829f62182c138decb0898b670924aff6f))
+
 ## [2.0.0](https://github.com/audunru/version-warning/compare/v1.0.1...v2.0.0) (2024-04-07)
 
 
