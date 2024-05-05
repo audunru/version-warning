@@ -4,7 +4,9 @@ namespace audunru\VersionWarning;
 
 use audunru\VersionWarning\Commands\ClearCache;
 use audunru\VersionWarning\Contracts\VersionServiceContract;
+use audunru\VersionWarning\Listeners\ClearCache as ClearCacheListener;
 use audunru\VersionWarning\Services\CachingVersionService;
+use Illuminate\Support\Facades\Event;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -35,5 +37,11 @@ class VersionWarningServiceProvider extends PackageServiceProvider
         $this->app->when(CachingVersionService::class)
             ->needs(VersionServiceContract::class)
             ->give(config('version-warning.services.version'));
+    }
+
+    public function bootingPackage()
+    {
+        $events = config('version-warning.cache.clear_on_events', []);
+        Event::listen($events, ClearCacheListener::class);
     }
 }
