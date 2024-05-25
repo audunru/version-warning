@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.1](https://github.com/audunru/version-warning/compare/v2.1.0...v2.1.1) (2024-05-20)
+
+
+### Miscellaneous Chores
+
+* parallel php-cs-fixer ([b5065cf](https://github.com/audunru/version-warning/commit/b5065cfa6340eb4c56f7ba87ed75c53f6aaa4bed))
+* update dependencies ([145b6a7](https://github.com/audunru/version-warning/commit/145b6a7aa427d2cbe5e614eb964238d38064c77d))
+
 ## [2.1.0](https://github.com/audunru/version-warning/compare/v2.0.0...v2.1.0) (2024-05-05)
 
 
