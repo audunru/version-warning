@@ -40,7 +40,7 @@ class DisabledCacheTest extends TestCase
         $response = $this->get('/test');
 
         $response
-            ->assertStatus(200)
+            ->assertOk()
             ->assertHeader('X-App-Version', '3.2.1')
             ->assertHeaderMissing('X-Version-Warning');
 

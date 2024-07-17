@@ -24,7 +24,7 @@ class EnabledCacheTest extends TestCase
         $response = $this->get('/test', ['X-App-Version' => '1.2.3']);
 
         $response
-            ->assertStatus(200)
+            ->assertOk()
             ->assertHeader('X-App-Version', '3.2.1')
             ->assertHeader('X-Version-Warning', '1');
     }
@@ -34,7 +34,7 @@ class EnabledCacheTest extends TestCase
         $response = $this->get('/test', ['X-App-Version' => '3.2.1']);
 
         $response
-            ->assertStatus(200)
+            ->assertOk()
             ->assertHeader('X-App-Version', '3.2.1')
             ->assertHeaderMissing('X-Version-Warning');
     }
@@ -44,7 +44,7 @@ class EnabledCacheTest extends TestCase
         $response = $this->get('/test');
 
         $response
-            ->assertStatus(200)
+            ->assertOk()
             ->assertHeader('X-App-Version', '3.2.1')
             ->assertHeaderMissing('X-Version-Warning');
     }
@@ -58,7 +58,7 @@ class EnabledCacheTest extends TestCase
         $response = $this->get('/test');
 
         $response
-            ->assertStatus(200);
+            ->assertOk();
 
         $cacheRepositorySpy
             ->shouldHaveReceived('rememberForever')

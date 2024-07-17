@@ -13,7 +13,7 @@ class ThrowErrorTest extends TestCase
 
         $response = $this->get('/test');
 
-        $response->assertStatus(500);
+        $response->assertInternalServerError();
 
         config(['version-warning.errors.throw' => $original]);
     }

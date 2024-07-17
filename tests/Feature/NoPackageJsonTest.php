@@ -17,7 +17,7 @@ class NoPackageJsonTest extends TestCase
         $response = $this->get('/test', ['X-App-Version' => '1.2.3']);
 
         $response
-            ->assertStatus(200)
+            ->assertOk()
             ->assertHeaderMissing('X-App-Version')
             ->assertHeaderMissing('X-Version-Warning');
     }
