@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/audunru/version-warning/compare/v2.1.1...v2.1.2) (2024-07-17)
+
+
+### Miscellaneous Chores
+
+* update dependencies ([7fb57eb](https://github.com/audunru/version-warning/commit/7fb57ebd391ff7c697abb44bcebee9557077ecac))
+
 ## [2.1.1](https://github.com/audunru/version-warning/compare/v2.1.0...v2.1.1) (2024-05-20)
 
 
