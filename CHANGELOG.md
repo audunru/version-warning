@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.4](https://github.com/audunru/version-warning/compare/v2.1.3...v2.1.4) (2024-11-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump symfony/process ([#19](https://github.com/audunru/version-warning/issues/19)) ([8fb8dcc](https://github.com/audunru/version-warning/commit/8fb8dccabbeb161bb4a8e9d33eea1c0f4c9d8568))
+
 ## [2.1.3](https://github.com/audunru/version-warning/compare/v2.1.2...v2.1.3) (2024-11-06)
 
 
