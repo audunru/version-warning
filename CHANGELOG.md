@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/audunru/version-warning/compare/v2.1.2...v2.1.3) (2024-11-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump symfony/http-foundation ([#17](https://github.com/audunru/version-warning/issues/17)) ([a7e8a23](https://github.com/audunru/version-warning/commit/a7e8a23c90aaf3e82f7b5adad3ab3442f2778dcb))
+
 ## [2.1.2](https://github.com/audunru/version-warning/compare/v2.1.1...v2.1.2) (2024-08-25)
 
 
