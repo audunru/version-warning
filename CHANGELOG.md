@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.5](https://github.com/audunru/version-warning/compare/v2.1.4...v2.1.5) (2024-11-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump laravel/framework ([#21](https://github.com/audunru/version-warning/issues/21)) ([e2080a1](https://github.com/audunru/version-warning/commit/e2080a14e9ff7e40dc1ffd466273f8165916c822))
+
 ## [2.1.4](https://github.com/audunru/version-warning/compare/v2.1.3...v2.1.4) (2024-11-06)
 
 
