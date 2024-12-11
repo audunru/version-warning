@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.5](https://github.com/audunru/version-warning/compare/v2.1.4...v2.1.5) (2024-12-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump laravel/framework ([#21](https://github.com/audunru/version-warning/issues/21)) ([e2080a1](https://github.com/audunru/version-warning/commit/e2080a14e9ff7e40dc1ffd466273f8165916c822))
+* **deps:** bump league/commonmark ([#23](https://github.com/audunru/version-warning/issues/23)) ([8ced56e](https://github.com/audunru/version-warning/commit/8ced56ec8948cbf1e8ff8577fa4ab8a73ae57854))
+
 ## [2.1.4](https://github.com/audunru/version-warning/compare/v2.1.3...v2.1.4) (2024-11-06)
 
 
