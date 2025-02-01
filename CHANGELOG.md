@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.6](https://github.com/audunru/version-warning/compare/v2.1.5...v2.1.6) (2025-02-01)
+
+
+### Miscellaneous Chores
+
+* dependabot config ([94384f5](https://github.com/audunru/version-warning/commit/94384f52744302e8c46a27e2e56653e85720329a))
+* **deps-dev:** bump orchestra/testbench from 9.2.0 to 9.9.0 ([#25](https://github.com/audunru/version-warning/issues/25)) ([859c434](https://github.com/audunru/version-warning/commit/859c434c73a2d4a401ac7e708e3e450f09c62dc8))
+* **deps:** bump laravel/framework from 11.31.0 to 11.41.3 ([#26](https://github.com/audunru/version-warning/issues/26)) ([8dc2ee2](https://github.com/audunru/version-warning/commit/8dc2ee2d790ed6b8de310dc0af69e7541c65fac3))
+
 ## [2.1.5](https://github.com/audunru/version-warning/compare/v2.1.4...v2.1.5) (2024-12-10)
 
 
