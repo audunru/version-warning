@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.8](https://github.com/audunru/version-warning/compare/v2.1.7...v2.1.8) (2025-02-17)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump friendsofphp/php-cs-fixer from 3.68.5 to 3.69.0 ([#32](https://github.com/audunru/version-warning/issues/32)) ([83e357c](https://github.com/audunru/version-warning/commit/83e357c875aa5daf425666ae1fcf5ec7e6f3ae7c))
+* **deps-dev:** bump orchestra/testbench from 9.9.0 to 9.10.0 ([#31](https://github.com/audunru/version-warning/issues/31)) ([f827d5d](https://github.com/audunru/version-warning/commit/f827d5dd2e3a78ee72dc4506f4b38076b997a80e))
+
 ## [2.1.7](https://github.com/audunru/version-warning/compare/v2.1.6...v2.1.7) (2025-02-14)
 
 
