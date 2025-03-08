@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.1.8](https://github.com/audunru/version-warning/compare/v2.1.7...v2.1.8) (2025-03-07)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#34](https://github.com/audunru/version-warning/issues/34)) ([fcd4d1f](https://github.com/audunru/version-warning/commit/fcd4d1fbdd5c597b0c91574b316e963dbe03931a))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#35](https://github.com/audunru/version-warning/issues/35)) ([c7036b9](https://github.com/audunru/version-warning/commit/c7036b9708feb5a9e010a52397510360ad72982b))
+* **deps-dev:** bump friendsofphp/php-cs-fixer from 3.68.5 to 3.69.0 ([#32](https://github.com/audunru/version-warning/issues/32)) ([83e357c](https://github.com/audunru/version-warning/commit/83e357c875aa5daf425666ae1fcf5ec7e6f3ae7c))
+* **deps-dev:** bump orchestra/testbench from 9.9.0 to 9.10.0 ([#31](https://github.com/audunru/version-warning/issues/31)) ([f827d5d](https://github.com/audunru/version-warning/commit/f827d5dd2e3a78ee72dc4506f4b38076b997a80e))
+* **deps:** bump laravel/framework in the composer group ([#36](https://github.com/audunru/version-warning/issues/36)) ([a19089b](https://github.com/audunru/version-warning/commit/a19089b9a7661c5a4409ec3928222a4a0067ac00))
+
 ## [2.1.7](https://github.com/audunru/version-warning/compare/v2.1.6...v2.1.7) (2025-02-14)
 
 
