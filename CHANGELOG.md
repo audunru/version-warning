@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.9](https://github.com/audunru/version-warning/compare/v2.1.8...v2.1.9) (2025-03-15)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#37](https://github.com/audunru/version-warning/issues/37)) ([35f4973](https://github.com/audunru/version-warning/commit/35f4973ac80bf11ee2477f157ba47b69af7c1faa))
+
 ## [2.1.8](https://github.com/audunru/version-warning/compare/v2.1.7...v2.1.8) (2025-03-07)
 
 
