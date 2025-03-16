@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.0.0](https://github.com/audunru/version-warning/compare/v2.1.8...v3.0.0) (2025-03-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* laravel 12 support ([#41](https://github.com/audunru/version-warning/issues/41))
+
+### Features
+
+* laravel 12 support ([#41](https://github.com/audunru/version-warning/issues/41)) ([88f2af2](https://github.com/audunru/version-warning/commit/88f2af214265da63e4afb741bf904fd4e43b8012))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#37](https://github.com/audunru/version-warning/issues/37)) ([35f4973](https://github.com/audunru/version-warning/commit/35f4973ac80bf11ee2477f157ba47b69af7c1faa))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#39](https://github.com/audunru/version-warning/issues/39)) ([2828825](https://github.com/audunru/version-warning/commit/2828825bf2d674623184b2e575065f5ba3212353))
+* rename master branch to main ([ae2f0b9](https://github.com/audunru/version-warning/commit/ae2f0b9cb05252a38b111e87c3d6eca6d0fcace4))
+
 ## [2.1.8](https://github.com/audunru/version-warning/compare/v2.1.7...v2.1.8) (2025-03-07)
 
 
