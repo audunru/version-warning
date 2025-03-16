@@ -1,8 +1,8 @@
 # Warn SPA users when client is outdated compared to server
 
 [![Build Status](https://github.com/audunru/version-warning/actions/workflows/validate.yml/badge.svg)](https://github.com/audunru/version-warning/actions/workflows/validate.yml)
-[![Coverage Status](https://coveralls.io/repos/github/audunru/version-warning/badge.svg?branch=master)](https://coveralls.io/github/audunru/version-warning?branch=master)
-[![StyleCI](https://github.styleci.io/repos/432809067/shield?branch=master)](https://github.styleci.io/repos/432809067)
+[![Coverage Status](https://coveralls.io/repos/github/audunru/version-warning/badge.svg?branch=main)](https://coveralls.io/github/audunru/version-warning?branch=main)
+[![StyleCI](https://github.styleci.io/repos/432809067/shield?branch=main)](https://github.styleci.io/repos/432809067)
 
 Laravel middleware to help you notify users who are using an outdated version of the SPA client.
 
