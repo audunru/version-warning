@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.1](https://github.com/audunru/version-warning/compare/v3.0.0...v3.0.1) (2025-04-01)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#43](https://github.com/audunru/version-warning/issues/43)) ([7f314d4](https://github.com/audunru/version-warning/commit/7f314d44f881ec7a60cd3568e0a72c11c35a65e0))
+* **deps:** bump the production-dependencies group with 2 updates ([#42](https://github.com/audunru/version-warning/issues/42)) ([74f720b](https://github.com/audunru/version-warning/commit/74f720b19c92202e91f814fda13c4913793921af))
+
 ## [3.0.0](https://github.com/audunru/version-warning/compare/v2.1.8...v3.0.0) (2025-03-16)
 
 
