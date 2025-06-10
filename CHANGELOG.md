@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.1](https://github.com/audunru/version-warning/compare/v3.0.0...v3.0.1) (2025-06-07)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#43](https://github.com/audunru/version-warning/issues/43)) ([7f314d4](https://github.com/audunru/version-warning/commit/7f314d44f881ec7a60cd3568e0a72c11c35a65e0))
+* **deps-dev:** bump the development-dependencies group across 1 directory with 3 updates ([#48](https://github.com/audunru/version-warning/issues/48)) ([a3f62ef](https://github.com/audunru/version-warning/commit/a3f62efe9c573317640e04a31bca238de9e22797))
+* **deps:** bump laravel/framework in the production-dependencies group ([#49](https://github.com/audunru/version-warning/issues/49)) ([2ec8cab](https://github.com/audunru/version-warning/commit/2ec8cab773d81c22f2ddabac65206bb777bc19e4))
+* **deps:** bump league/commonmark in the composer group ([#47](https://github.com/audunru/version-warning/issues/47)) ([9c7c60b](https://github.com/audunru/version-warning/commit/9c7c60b482838daaf01190ce46fc098e89095a9e))
+* **deps:** bump the production-dependencies group with 2 updates ([#42](https://github.com/audunru/version-warning/issues/42)) ([74f720b](https://github.com/audunru/version-warning/commit/74f720b19c92202e91f814fda13c4913793921af))
+* **deps:** bump the production-dependencies group with 2 updates ([#45](https://github.com/audunru/version-warning/issues/45)) ([ff8d1f7](https://github.com/audunru/version-warning/commit/ff8d1f71832054de633bf31a47126df66a1f9b40))
+
 ## [3.0.0](https://github.com/audunru/version-warning/compare/v2.1.8...v3.0.0) (2025-03-16)
 
 
