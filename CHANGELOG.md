@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/audunru/version-warning/compare/v3.0.1...v3.0.2) (2025-07-03)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump the development-dependencies group with 3 updates ([#51](https://github.com/audunru/version-warning/issues/51)) ([ca930bf](https://github.com/audunru/version-warning/commit/ca930bf33a7b354a559b6d003ab3b8cfc090ecbe))
+
 ## [3.0.1](https://github.com/audunru/version-warning/compare/v3.0.0...v3.0.1) (2025-06-07)
 
 
