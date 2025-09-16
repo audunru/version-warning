@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.0.2](https://github.com/audunru/version-warning/compare/v3.0.1...v3.0.2) (2025-09-16)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#54](https://github.com/audunru/version-warning/issues/54)) ([9d0e1d4](https://github.com/audunru/version-warning/commit/9d0e1d4c81165881c24d978e415630dd207cb526))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#60](https://github.com/audunru/version-warning/issues/60)) ([81a3e0b](https://github.com/audunru/version-warning/commit/81a3e0b7229fcb3e311a5ec9406adb6681112e6d))
+* **deps-dev:** bump the development-dependencies group with 3 updates ([#51](https://github.com/audunru/version-warning/issues/51)) ([ca930bf](https://github.com/audunru/version-warning/commit/ca930bf33a7b354a559b6d003ab3b8cfc090ecbe))
+* **deps-dev:** bump the development-dependencies group with 3 updates ([#55](https://github.com/audunru/version-warning/issues/55)) ([30e14b1](https://github.com/audunru/version-warning/commit/30e14b11911130bfa3b85b9630f2b7883f869c2f))
+* **deps:** bump actions/checkout from 4 to 5 ([#57](https://github.com/audunru/version-warning/issues/57)) ([75afce0](https://github.com/audunru/version-warning/commit/75afce0af9908786489eb1709e4d032cc6c0a6b5))
+* **deps:** bump amannn/action-semantic-pull-request from 5 to 6 ([#58](https://github.com/audunru/version-warning/issues/58)) ([7cc0b58](https://github.com/audunru/version-warning/commit/7cc0b58061af391267330d5c280ef391bf308219))
+* **deps:** bump laravel/framework in the production-dependencies group ([#56](https://github.com/audunru/version-warning/issues/56)) ([609f6a9](https://github.com/audunru/version-warning/commit/609f6a9d6203e34a9f2f60c72a230360e00124f2))
+* **deps:** bump laravel/framework in the production-dependencies group ([#59](https://github.com/audunru/version-warning/issues/59)) ([10f4fc6](https://github.com/audunru/version-warning/commit/10f4fc69760e1f7d1b2951aff017a7352590d58c))
+* **deps:** bump the production-dependencies group with 2 updates ([#53](https://github.com/audunru/version-warning/issues/53)) ([1ec8879](https://github.com/audunru/version-warning/commit/1ec887975c8437fc0f590fa9cbb1c7f11e627d07))
+
 ## [3.0.1](https://github.com/audunru/version-warning/compare/v3.0.0...v3.0.1) (2025-06-07)
 
 
