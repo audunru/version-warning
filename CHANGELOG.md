@@ -1,5 +1,83 @@
 # Changelog
 
+## [2.0.0](https://github.com/audunru/version-warning/compare/v1.0.0...v2.0.0) (2025-11-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* laravel 12 support ([#41](https://github.com/audunru/version-warning/issues/41))
+
+### Features
+
+* clear version cache automatically after console commands ([5198851](https://github.com/audunru/version-warning/commit/51988513f7424f3c57df9476e870289f447139ab))
+* clear version cache automatically after events ([f46c122](https://github.com/audunru/version-warning/commit/f46c1221dcf63f3e304379b27d29e6a5b23f0c68))
+* laravel 11 support ([#10](https://github.com/audunru/version-warning/issues/10)) ([a9c7664](https://github.com/audunru/version-warning/commit/a9c76645bbbc134432395db891e50dd67c615a5f))
+* laravel 12 support ([#41](https://github.com/audunru/version-warning/issues/41)) ([54dfa23](https://github.com/audunru/version-warning/commit/54dfa23afa1951b5394cd5453327d267ca02b418))
+
+
+### Miscellaneous Chores
+
+* delete prettier config ([4ec6597](https://github.com/audunru/version-warning/commit/4ec65972050a7704b3bbeb486f7f0e0169d19fcb))
+* dependabot config ([fd28bad](https://github.com/audunru/version-warning/commit/fd28badc90c7da45752cc8dc33681ef4fb50f999))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#34](https://github.com/audunru/version-warning/issues/34)) ([f1d9f12](https://github.com/audunru/version-warning/commit/f1d9f12535845dda7aa7ab5babc49d17466746cd))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#35](https://github.com/audunru/version-warning/issues/35)) ([db8093c](https://github.com/audunru/version-warning/commit/db8093c41a575054cb0d330b4ab60ebcfb211926))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#37](https://github.com/audunru/version-warning/issues/37)) ([149fce5](https://github.com/audunru/version-warning/commit/149fce57869a7c42c7a57387b63d74cc9b453504))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#39](https://github.com/audunru/version-warning/issues/39)) ([1f2dbc6](https://github.com/audunru/version-warning/commit/1f2dbc66cec33e3dbc3a72f2c0ba9c956ba9b271))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#43](https://github.com/audunru/version-warning/issues/43)) ([4fbd640](https://github.com/audunru/version-warning/commit/4fbd64086a5d3dde455af0b87334fadf7c4446ac))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#54](https://github.com/audunru/version-warning/issues/54)) ([2927ad9](https://github.com/audunru/version-warning/commit/2927ad938e273a64cc54969267e7d699071b9c0f))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#60](https://github.com/audunru/version-warning/issues/60)) ([b574fea](https://github.com/audunru/version-warning/commit/b574fea44efabe9a041380a0d6afef93b2ddcac7))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#62](https://github.com/audunru/version-warning/issues/62)) ([2dc5c71](https://github.com/audunru/version-warning/commit/2dc5c714d7c92e2ebd3ca2892ebbc95bdcbe8102))
+* **deps-dev:** bump friendsofphp/php-cs-fixer ([#67](https://github.com/audunru/version-warning/issues/67)) ([bd1ef80](https://github.com/audunru/version-warning/commit/bd1ef80b39d3bf478a8405ca9dedebd64247a2f4))
+* **deps-dev:** bump friendsofphp/php-cs-fixer from 3.68.5 to 3.69.0 ([#32](https://github.com/audunru/version-warning/issues/32)) ([79ba4e2](https://github.com/audunru/version-warning/commit/79ba4e271f7287af724fec37462c2dd72cfdf9aa))
+* **deps-dev:** bump orchestra/testbench from 9.2.0 to 9.9.0 ([#25](https://github.com/audunru/version-warning/issues/25)) ([7dbf8e2](https://github.com/audunru/version-warning/commit/7dbf8e28f032c045fd33019dbcf07ade4262c27c))
+* **deps-dev:** bump orchestra/testbench from 9.9.0 to 9.10.0 ([#31](https://github.com/audunru/version-warning/issues/31)) ([184917a](https://github.com/audunru/version-warning/commit/184917ac73e8a1982f8a8e6783a71eac8151c0ea))
+* **deps-dev:** bump the development-dependencies group across 1 directory with 3 updates ([#48](https://github.com/audunru/version-warning/issues/48)) ([3c22429](https://github.com/audunru/version-warning/commit/3c22429388916bb699d6cc25e7519ea8870ab6d9))
+* **deps-dev:** bump the development-dependencies group with 3 updates ([#51](https://github.com/audunru/version-warning/issues/51)) ([d71a5a4](https://github.com/audunru/version-warning/commit/d71a5a4c3f50d7ab4357fb6b7564cb390a7c881b))
+* **deps-dev:** bump the development-dependencies group with 3 updates ([#55](https://github.com/audunru/version-warning/issues/55)) ([cfd193f](https://github.com/audunru/version-warning/commit/cfd193f8a04bba6ab3f5785aca527dc543011325))
+* **deps:** bump actions/checkout from 4 to 5 ([#57](https://github.com/audunru/version-warning/issues/57)) ([612b09b](https://github.com/audunru/version-warning/commit/612b09b642b0bec7b23daecd0e55d098f88bcf98))
+* **deps:** bump amannn/action-semantic-pull-request from 5 to 6 ([#58](https://github.com/audunru/version-warning/issues/58)) ([0f52f47](https://github.com/audunru/version-warning/commit/0f52f4725946d456bd72a871a788d8e5f00ae88d))
+* **deps:** bump laravel/framework ([#21](https://github.com/audunru/version-warning/issues/21)) ([7169141](https://github.com/audunru/version-warning/commit/7169141ba3cb857df2d8bf12f8384df5d749d1ff))
+* **deps:** bump laravel/framework from 11.31.0 to 11.41.3 ([#26](https://github.com/audunru/version-warning/issues/26)) ([e495176](https://github.com/audunru/version-warning/commit/e4951763aa91c51e0e4adca56bc201486d2e1bb7))
+* **deps:** bump laravel/framework from 12.32.5 to 12.33.0 in the production-dependencies group ([#64](https://github.com/audunru/version-warning/issues/64)) ([0d2642b](https://github.com/audunru/version-warning/commit/0d2642b48241719825d439e8950ba5e6cbb79327))
+* **deps:** bump laravel/framework in the composer group ([#36](https://github.com/audunru/version-warning/issues/36)) ([11cc3ed](https://github.com/audunru/version-warning/commit/11cc3ed534dd7bf8a43eef8aa42a28e191758d64))
+* **deps:** bump laravel/framework in the production-dependencies group ([#49](https://github.com/audunru/version-warning/issues/49)) ([782bd3b](https://github.com/audunru/version-warning/commit/782bd3bb6ad63ed554e770fa1540df49974854b4))
+* **deps:** bump laravel/framework in the production-dependencies group ([#56](https://github.com/audunru/version-warning/issues/56)) ([e52b15a](https://github.com/audunru/version-warning/commit/e52b15ac957247d5437d57e94dc11f841aa3b6e3))
+* **deps:** bump laravel/framework in the production-dependencies group ([#59](https://github.com/audunru/version-warning/issues/59)) ([a83f947](https://github.com/audunru/version-warning/commit/a83f947db9dc0e958f6eccbc62f84270caa29fc9))
+* **deps:** bump laravel/framework in the production-dependencies group ([#61](https://github.com/audunru/version-warning/issues/61)) ([9f5b78a](https://github.com/audunru/version-warning/commit/9f5b78a50af23fbccfed4143f6664d5c3d19bf4a))
+* **deps:** bump laravel/framework in the production-dependencies group ([#66](https://github.com/audunru/version-warning/issues/66)) ([0c4d0fc](https://github.com/audunru/version-warning/commit/0c4d0fcc6af452246e30266ebba80c991539bd78))
+* **deps:** bump league/commonmark ([#23](https://github.com/audunru/version-warning/issues/23)) ([528ecce](https://github.com/audunru/version-warning/commit/528ecced97d85c07c8e1b03d079d8383ceb2380a))
+* **deps:** bump league/commonmark in the composer group ([#47](https://github.com/audunru/version-warning/issues/47)) ([c24c451](https://github.com/audunru/version-warning/commit/c24c4513b92241e346bc5fd6599d5ccdb7f39b06))
+* **deps:** bump spatie/laravel-package-tools from 1.18.3 to 1.19.0 ([#29](https://github.com/audunru/version-warning/issues/29)) ([046607f](https://github.com/audunru/version-warning/commit/046607f01b0c85709ac5d74d05386994c0de8a05))
+* **deps:** bump symfony/http-foundation ([#17](https://github.com/audunru/version-warning/issues/17)) ([9cf0f83](https://github.com/audunru/version-warning/commit/9cf0f83a6f783692dbee78cd00362c67ab61d7e5))
+* **deps:** bump symfony/http-foundation from 7.3.5 to 7.3.7 ([#68](https://github.com/audunru/version-warning/issues/68)) ([0bd3a81](https://github.com/audunru/version-warning/commit/0bd3a81b3ee15ffa8911eb705cee439534f84304))
+* **deps:** bump symfony/process ([#19](https://github.com/audunru/version-warning/issues/19)) ([e452d15](https://github.com/audunru/version-warning/commit/e452d15c72f71617b461ce560632f5e61692844b))
+* **deps:** bump the production-dependencies group with 2 updates ([#42](https://github.com/audunru/version-warning/issues/42)) ([80f13ed](https://github.com/audunru/version-warning/commit/80f13eda6257459c79fd0dc6996e4e03182d70d6))
+* **deps:** bump the production-dependencies group with 2 updates ([#45](https://github.com/audunru/version-warning/issues/45)) ([52e36e1](https://github.com/audunru/version-warning/commit/52e36e145814667590cc6d2a3799ea54066c00b7))
+* **deps:** bump the production-dependencies group with 2 updates ([#53](https://github.com/audunru/version-warning/issues/53)) ([10bdbce](https://github.com/audunru/version-warning/commit/10bdbce9fe8c03a7e1db022c9d5f097cd6156d95))
+* **main:** release 3.0.0 ([#40](https://github.com/audunru/version-warning/issues/40)) ([cd56545](https://github.com/audunru/version-warning/commit/cd565454427f2e413540e614acc833e9d749c208))
+* **main:** release 3.0.1 ([#44](https://github.com/audunru/version-warning/issues/44)) ([892bc36](https://github.com/audunru/version-warning/commit/892bc369482d1f5bca8c2644bfc537809cd51f90))
+* **main:** release 3.0.2 ([#52](https://github.com/audunru/version-warning/issues/52)) ([eb8712c](https://github.com/audunru/version-warning/commit/eb8712c3f45680132e3205daf6e6e4d5d2a5bca7))
+* **main:** release 3.0.3 ([#63](https://github.com/audunru/version-warning/issues/63)) ([375e74c](https://github.com/audunru/version-warning/commit/375e74cc49e3291e0e677d9d112f7762886a4838))
+* **master:** release 1.0.1 ([#9](https://github.com/audunru/version-warning/issues/9)) ([83c12ab](https://github.com/audunru/version-warning/commit/83c12ab28aad25b49a45bc254ad7a2842e07783b))
+* **master:** release 2.0.0 ([#11](https://github.com/audunru/version-warning/issues/11)) ([faebc25](https://github.com/audunru/version-warning/commit/faebc251abbc1611d5d04fd91a1a7b9e61fc6f39))
+* **master:** release 2.1.0 ([#13](https://github.com/audunru/version-warning/issues/13)) ([198b20b](https://github.com/audunru/version-warning/commit/198b20bf4ef4f7b2652f38d53321116fd0190da9))
+* **master:** release 2.1.1 ([#14](https://github.com/audunru/version-warning/issues/14)) ([7d1d167](https://github.com/audunru/version-warning/commit/7d1d167fb62b1c7989130596ce11b7493e1f4516))
+* **master:** release 2.1.2 ([#16](https://github.com/audunru/version-warning/issues/16)) ([5427cf4](https://github.com/audunru/version-warning/commit/5427cf41ec4500260cd2a88b851d9d1d2c05a4cf))
+* **master:** release 2.1.3 ([#18](https://github.com/audunru/version-warning/issues/18)) ([c62786c](https://github.com/audunru/version-warning/commit/c62786c32888ebbbe0c4e60f8b59c7325fffb1be))
+* **master:** release 2.1.4 ([#20](https://github.com/audunru/version-warning/issues/20)) ([9b52797](https://github.com/audunru/version-warning/commit/9b5279706608065f4a2fd98691258df5ff02f95c))
+* **master:** release 2.1.5 ([#22](https://github.com/audunru/version-warning/issues/22)) ([251f77d](https://github.com/audunru/version-warning/commit/251f77dd8cc75a8f220f8b8a039c12c747d1dd29))
+* **master:** release 2.1.6 ([#24](https://github.com/audunru/version-warning/issues/24)) ([97c989f](https://github.com/audunru/version-warning/commit/97c989f050f291dfe6ceb72dec86af57fe7500e6))
+* **master:** release 2.1.7 ([#30](https://github.com/audunru/version-warning/issues/30)) ([396bb4f](https://github.com/audunru/version-warning/commit/396bb4f3162c8f0098220ddca794e37fee1a4d7b))
+* **master:** release 2.1.8 ([#33](https://github.com/audunru/version-warning/issues/33)) ([ba00f9c](https://github.com/audunru/version-warning/commit/ba00f9c1e05083209698b84548635dc3fa636d4a))
+* parallel php-cs-fixer ([e27d76f](https://github.com/audunru/version-warning/commit/e27d76fc77b9005d22fb434648f91ca9fc39315d))
+* release 2.0.0 ([79e5088](https://github.com/audunru/version-warning/commit/79e5088f70482126104669ddbfa834ec6b9a1b47))
+* rename master branch to main ([ade0aaa](https://github.com/audunru/version-warning/commit/ade0aaa0bb0c7661d55b6ce6f96f5508512e5276))
+* update dependencies ([b3244f4](https://github.com/audunru/version-warning/commit/b3244f4235bfb8c4dc30d4ac9e25cfa5093a236d))
+* update dependencies ([a71fe89](https://github.com/audunru/version-warning/commit/a71fe89b2879efe322cc01cfe192715ec44c5b60))
+* update dependencies ([16c2610](https://github.com/audunru/version-warning/commit/16c2610d1a75320ebe37f19ccca67741a4ed9c74))
+* update phpunit ([90b8377](https://github.com/audunru/version-warning/commit/90b83774ae6789856bcb9c9528199b0b0255b708))
+* update styleci config ([c09538c](https://github.com/audunru/version-warning/commit/c09538c667be6b79a62bb85cb2ab73fe1115590a))
+
 ## [3.0.3](https://github.com/audunru/version-warning/compare/v3.0.2...v3.0.3) (2025-10-02)
 
 
