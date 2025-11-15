@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/audunru/version-warning/compare/v3.0.4...v3.0.5) (2025-11-15)
+
+
+### Bug Fixes
+
+* force semantic release ([0e9f3ee](https://github.com/audunru/version-warning/commit/0e9f3eeac98eed907bb45b5eac235176e3baa095))
+
 # Changelog
 
 ## [3.0.3](https://github.com/audunru/version-warning/compare/v3.0.2...v3.0.3) (2025-10-02)
