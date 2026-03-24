@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/audunru/version-warning/compare/v3.0.5...v4.0.0) (2026-03-24)
+
+
+### Features
+
+* laravel 13 support ([#89](https://github.com/audunru/version-warning/issues/89)) ([4ab46f8](https://github.com/audunru/version-warning/commit/4ab46f8df5d8555233802633212d7d0116e6a412))
+
+
+### BREAKING CHANGES
+
+* Laravel 13 is now the minimum required version, which also means PHP 8.3 is required
+
 ## [3.0.5](https://github.com/audunru/version-warning/compare/v3.0.4...v3.0.5) (2025-11-15)
 
 
