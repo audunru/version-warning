@@ -22,7 +22,7 @@ class ClearCacheTest extends TestCase
             ->andReturn('{"version": "3.2.1"}');
     }
 
-    public function testCacheCanBeCleared()
+    public function test_cache_can_be_cleared()
     {
         $this->assertNull(Cache::get('app-version'));
 
@@ -37,7 +37,7 @@ class ClearCacheTest extends TestCase
         $this->assertNull(Cache::get('app-version'));
     }
 
-    public function testCacheIsAutomaticallyClearedOnEvent()
+    public function test_cache_is_automatically_cleared_on_event()
     {
         $this->assertNull(Cache::get('app-version'));
 
@@ -50,7 +50,7 @@ class ClearCacheTest extends TestCase
         $this->assertNull(Cache::get('app-version'));
     }
 
-    public function testCacheIsNotAutomaticallyClearedOnOtherEvent()
+    public function test_cache_is_not_automatically_cleared_on_other_event()
     {
         $this->assertNull(Cache::get('app-version'));
 
@@ -63,7 +63,7 @@ class ClearCacheTest extends TestCase
         $this->assertEquals('3.2.1', Cache::get('app-version'));
     }
 
-    public function testCacheIsAutomaticallyClearedAfterCommand()
+    public function test_cache_is_automatically_cleared_after_command()
     {
         $this->assertNull(Cache::get('app-version'));
 
@@ -71,12 +71,12 @@ class ClearCacheTest extends TestCase
 
         $this->assertEquals('3.2.1', Cache::get('app-version'));
 
-        Event::dispatch(new CommandFinished('some-command', new ArrayInput([]), new ConsoleOutput(), 0));
+        Event::dispatch(new CommandFinished('some-command', new ArrayInput([]), new ConsoleOutput, 0));
 
         $this->assertNull(Cache::get('app-version'));
     }
 
-    public function testCacheIsNotAutomaticallyClearedAfterOtherCommand()
+    public function test_cache_is_not_automatically_cleared_after_other_command()
     {
         $this->assertNull(Cache::get('app-version'));
 
@@ -84,7 +84,7 @@ class ClearCacheTest extends TestCase
 
         $this->assertEquals('3.2.1', Cache::get('app-version'));
 
-        Event::dispatch(new CommandFinished('other-command', new ArrayInput([]), new ConsoleOutput(), 0));
+        Event::dispatch(new CommandFinished('other-command', new ArrayInput([]), new ConsoleOutput, 0));
 
         $this->assertEquals('3.2.1', Cache::get('app-version'));
     }

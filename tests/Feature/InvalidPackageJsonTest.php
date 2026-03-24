@@ -9,7 +9,7 @@ use Mockery;
 
 class InvalidPackageJsonTest extends TestCase
 {
-    public function testLogsErrorWhenPackageJsonIsInvalid()
+    public function test_logs_error_when_package_json_is_invalid()
     {
         File::partialMock()
             ->shouldReceive('get')

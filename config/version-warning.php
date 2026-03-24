@@ -1,18 +1,20 @@
 <?php
 
+use audunru\VersionWarning\Services\NodeVersionService;
+
 return [
     'services' => [
         /*
          * Class responsible for comparing client and app version.
          */
-        'version' => audunru\VersionWarning\Services\NodeVersionService::class,
+        'version' => NodeVersionService::class,
     ],
 
     'headers' => [
         /*
         * HTTP header name containing app version.
         */
-        'app-version'     => 'X-App-Version',
+        'app-version' => 'X-App-Version',
         /*
          * HTTP header name indicating that client and server are not using the same version.
          */
@@ -26,15 +28,15 @@ return [
         /*
         * Cache key used to store current app version.
         */
-        'key'     => 'app-version',
+        'key' => 'app-version',
         /*
         * Automatically clear the cache on these events.
         */
-        'clear_on_events'     => [],
+        'clear_on_events' => [],
         /*
         * Automatically clear the cache after these console commands have run.
         */
-        'clear_after_commands'     => [],
+        'clear_after_commands' => [],
     ],
     'errors' => [
         /*

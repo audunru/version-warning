@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\File;
 
 class HelpersTest extends TestCase
 {
-    public function testAppVersionHelperReturnsAppVersion()
+    public function test_app_version_helper_returns_app_version()
     {
         File::partialMock()
             ->shouldReceive('get')
