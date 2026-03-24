@@ -27,7 +27,7 @@ class DisabledCacheTest extends TestCase
         parent::tearDown();
     }
 
-    public function testCacheCanBeDisabled()
+    public function test_cache_can_be_disabled()
     {
         $cacheRepository = Cache::driver();
         $cacheRepositorySpy = Mockery::spy($cacheRepository);

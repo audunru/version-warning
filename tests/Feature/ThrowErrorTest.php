@@ -6,7 +6,7 @@ use audunru\VersionWarning\Tests\TestCase;
 
 class ThrowErrorTest extends TestCase
 {
-    public function testThrowsError()
+    public function test_throws_error()
     {
         $original = config('version-warning.errors.throw');
         config(['version-warning.errors.throw' => true]);

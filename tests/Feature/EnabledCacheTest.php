@@ -19,7 +19,7 @@ class EnabledCacheTest extends TestCase
             ->andReturn('{"version": "3.2.1"}');
     }
 
-    public function testAddsVersionWarningHeaderWhenHeadersDoNotMatch()
+    public function test_adds_version_warning_header_when_headers_do_not_match()
     {
         $response = $this->get('/test', ['X-App-Version' => '1.2.3']);
 
@@ -29,7 +29,7 @@ class EnabledCacheTest extends TestCase
             ->assertHeader('X-Version-Warning', '1');
     }
 
-    public function testDoesNotAddVersionWarningHeaderWhenVersionsMatch()
+    public function test_does_not_add_version_warning_header_when_versions_match()
     {
         $response = $this->get('/test', ['X-App-Version' => '3.2.1']);
 
@@ -39,7 +39,7 @@ class EnabledCacheTest extends TestCase
             ->assertHeaderMissing('X-Version-Warning');
     }
 
-    public function testAddsAppVersionHeaderWhenClientVersionHeaderIsMissing()
+    public function test_adds_app_version_header_when_client_version_header_is_missing()
     {
         $response = $this->get('/test');
 
@@ -49,7 +49,7 @@ class EnabledCacheTest extends TestCase
             ->assertHeaderMissing('X-Version-Warning');
     }
 
-    public function testCacheIsEnabledByDefault()
+    public function test_cache_is_enabled_by_default()
     {
         $cacheRepository = Cache::driver();
         $cacheRepositorySpy = Mockery::spy($cacheRepository);

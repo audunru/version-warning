@@ -11,9 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class VersionWarning
 {
-    public function __construct(private VersionServiceContract $versionService)
-    {
-    }
+    public function __construct(private VersionServiceContract $versionService) {}
 
     /**
      * Handle an incoming request.

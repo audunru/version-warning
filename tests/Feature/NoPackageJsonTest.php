@@ -8,7 +8,7 @@ use Mockery;
 
 class NoPackageJsonTest extends TestCase
 {
-    public function testLogsErrorWhenPackageJsonIsMissing()
+    public function test_logs_error_when_package_json_is_missing()
     {
         Log::shouldReceive('error')
             ->once()

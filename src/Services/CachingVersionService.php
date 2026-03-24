@@ -8,9 +8,7 @@ use Illuminate\Support\Facades\Cache;
 
 class CachingVersionService implements VersionServiceContract
 {
-    public function __construct(private VersionServiceContract $versionService)
-    {
-    }
+    public function __construct(private VersionServiceContract $versionService) {}
 
     /**
      * Get app version running on the server.
