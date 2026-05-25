@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/audunru/version-warning/compare/v4.0.0...v4.1.0) (2026-05-25)
+
+
+### Features
+
+* add Trivy security scan workflow ([#95](https://github.com/audunru/version-warning/issues/95)) ([452fbc7](https://github.com/audunru/version-warning/commit/452fbc7d9b4218cab4ced21774fed3010708b98d))
+
 # [4.0.0](https://github.com/audunru/version-warning/compare/v3.0.5...v4.0.0) (2026-03-24)
 
 
