@@ -4,7 +4,7 @@ Middleware package that warns SPA users when their client is running an outdated
 
 ## Public API
 
-- **Middleware**: `audunru\VersionWarning\Middleware\VersionWarning` — attach to routes that serve SPA API traffic; sets `X-App-Version` on every response and `X-Version-Warning: 1` when client and server versions differ.
+- **Middleware**: `audunru\VersionWarning\Middleware\VersionWarning` — attach to routes that serve SPA API traffic (the package registers no alias or global middleware). It sets `X-App-Version` on the response when the app version is known, and `X-Version-Warning: 1` when the client sent a version and `version_compare()` finds that it differs. Header names come from `version-warning.headers.*`.
 - **Helper**: `app_version()` (global, from `src/helpers.php`) — resolves `VersionServiceContract` and returns the server-side version string.
 - **Contract**: `audunru\VersionWarning\Contracts\VersionServiceContract` — `getAppVersion(): string` and `getClientVersion(Request): string`; bind a custom implementation in config to replace the default.
 
@@ -15,6 +15,7 @@ Config key: `version-warning`. Published config: `config/version-warning.php`.
 Artisan command: `version-warning:clear` — forgets the cache key (`app-version` by default).
 
 **Binding logic** (see `src/VersionWarningServiceProvider.php`):
+- The binding is chosen in `packageRegistered()`, so a change to `cache.enabled` or `services.version` after register has no effect.
 - If `version-warning.cache.enabled` is true (default), `VersionServiceContract` resolves to `CachingVersionService`, which wraps the configured inner service and stores the result with `Cache::rememberForever`.
 - Otherwise `VersionServiceContract` resolves directly to `version-warning.services.version` (default: `NodeVersionService`).
 
